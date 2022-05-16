@@ -41,7 +41,7 @@ public class Usuario {
 	private String senha;
 	
 	@NotNull
-	@Size(min=14,max=14)
+	@Size(min=11,max=11)
 	private String cpf;
 	
 	@NotNull
